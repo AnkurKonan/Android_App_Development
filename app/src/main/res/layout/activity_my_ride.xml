@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MyRide">
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Your Rides"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp" />
+
+    <!-- First Ride Section -->
+    <LinearLayout
+        android:id="@+id/name_section1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="14sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp">
+
+        <!-- Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"/>
+        <!-- Value -->
+        <TextView
+            android:id="@+id/name_value1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23-04-2024・11:40 am"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/name_value3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25-04-2024・10:20 am"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Second Ride Section -->
+    <LinearLayout
+        android:id="@+id/name_section2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="14sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp">
+
+        <!-- Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"/>
+        <!-- Value -->
+        <TextView
+            android:id="@+id/name_value2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24-04-2024・12:30 pm"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/name_value3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25-04-2024・10:20 am"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Third Ride Section -->
+    <LinearLayout
+        android:id="@+id/name_section3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="14sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp">
+
+        <!-- Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"/>
+        <!-- Value -->
+        <TextView
+            android:id="@+id/name_value3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25-04-2024・10:20 am"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/name_value3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25-04-2024・10:20 am"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Fourth Ride Section -->
+    <LinearLayout
+        android:id="@+id/name_section4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="14sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp">
+
+        <!-- Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"/>
+        <!-- Value -->
+        <TextView
+            android:id="@+id/name_value4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26-04-2024・09:15 am"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/name_value3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25-04-2024・10:20 am"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Spacer to push the button to the bottom -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/add_payment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_btn"
+        android:text="Clear history"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="#F7F7F7" />
+
+</LinearLayout>
+
