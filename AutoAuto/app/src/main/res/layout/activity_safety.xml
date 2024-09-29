@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Safety"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Safety Measures"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/location" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use GPS navigation app"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This helps ensure the driver is taking the correct route and not overcharging or taking a longer way"
+                android:textColor="#CCCCCC"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/luggage" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keep your belongings secure"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keep your bags and personal belongings close to you. Avoid displaying expensive gadgets or cash that could draw attention"
+                android:textColor="#CCCCCC"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/info" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avoid disclosing personal information"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do not share personal details with driver unless absolutely necessary."
+                android:textColor="#CCCCCC"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/agg1" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avoid argumentative or aggressive drivers"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consider finding another auto if driver is aggressive.
+Trust your instincts if something feels off."
+                android:textColor="#CCCCCC"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/night" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avoid night rides alone"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avoid taking an auto-rickshaw late at night if you're alone. Consider cab service with proper GPS tracking."
+                android:textColor="#CCCCCC"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
